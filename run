@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Configuring NGINX"
+perl -i -p -e 's/ENV_(\w+)/$ENV{$1}/g' /etc/nginx/sites-enabled/*.conf
+#cat /etc/nginx/sites-enabled/default
+
+echo "Running Upstream"
+exec /root/s3run "$@"
