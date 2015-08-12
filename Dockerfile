@@ -1,4 +1,4 @@
-FROM s3fs
+FROM deweysasser/s3fs
 MAINTAINER Dewey Sasser <dewey@sasser.com>
 
 RUN apt-get update
