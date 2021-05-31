@@ -1,3 +1,13 @@
+ARCHIVED
+========
+
+This project is no longer maintained.  
+
+You should almost certainly just use S3's ability to serve a static website.
+
+---
+
+
 nginx-s3-docker
 ===============
 
