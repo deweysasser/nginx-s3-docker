@@ -3,7 +3,7 @@ ARCHIVED
 
 This project is no longer maintained.  
 
-You should almost certainly just use S3's ability to serve a static website.
+You should almost certainly just use [S3's ability to serve a static website](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html).
 
 ---
 
